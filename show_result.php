@@ -64,11 +64,20 @@
                 echo '</font>';
                 echo '<br/>';   
 				echo '<br/>';   
-                $sth = "SELECT * FROM Memo
+                $sth = "SELECT * FROM memo
 					WHERE $str_arr_to_search
 					ORDER BY No DESC";
 					
 				$stmt = $DBH->query($sth);
+				//error case
+				if(!$stmt)
+				{
+					die("Execute query error, because: ". print_r($this->pdo->errorInfo(),true) );
+				}
+				//success case
+				else{
+					//continue flow
+				}
     while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
                 ?>
                 <tr align="center">
