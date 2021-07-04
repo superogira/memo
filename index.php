@@ -2,7 +2,7 @@
 <head>
 	<title>ระบบบันทึกและค้นหาข้อมูล</title>
 	<meta http-equiv=Content-Type content="text/html; charset=utf-8">
-	<?php include 'includes/head.php'; ?>
+	<?php $GLOBALS['caller_page'] = 'index'; include 'includes/head.php'; ?>
 </head>
 <body>
 <?php include 'includes/body_head.php'; ?>
@@ -76,10 +76,10 @@ while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
 			</button>
 		</td></tr>
 	<tr>
-		<td ><b>ชื่อ,เรื่อง,หัวข้อ หรือคำอธิบายสั้น ๆ <input type="text" size="100" name="Title" placeholder="เช่น แผนผังวังเดิม เป็นต้น"></b></td>
+		<td ><b>ชื่อ,เรื่อง,หัวข้อ หรือคำอธิบายสั้น ๆ <input type="text" size="100" name="Title" placeholder="เช่น เอกสารสำคัญ เป็นต้น"></b></td>
 	</tr>
 	<tr>
-		<td>ใส่คำค้นหลัก (Tag) แบ่งคำค้นด้วย , (comma) <input type="text" size="44" name="Tag" placeholder="เช่น config,noc,แผนผัง,วังเดิม เป็นต้น"> ชื่อผู้บันทึก <input type="text" size="33" name="name"></td>
+		<td>ใส่คำค้นหลัก (Tag) แบ่งคำค้นด้วย , (comma) <input type="text" size="44" name="Tag" placeholder="เช่น เอกสาร,word,รายงาน,การประชุม เป็นต้น"> ชื่อผู้บันทึก <input type="text" size="33" name="name"></td>
 	</tr>
 	<tr>
 		<td><textarea name="memo_data" id="editor1"></textarea></td>
