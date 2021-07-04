@@ -14,7 +14,7 @@
 			<form action="index.php" method="post" class="form-horizontal">
 				<div class="form-group row">
 					<div class="col-sm-5">
-						<input type="text" class="search_box" size="40" name="q" class="form-control"  placeholder="เช่น หัวหิน หรือ ป้อมพระจุล,แหลมธรรมชาติ เป็นต้น" required>
+						<input type="text" class="search_box" size="40" name="q" class="form-control"  placeholder="เช่น โปรแกรม หรือ โปรแกรม,word เป็นต้น" required>
 					</div>
 					<br>
 					<div class="col-sm-2">
