@@ -48,10 +48,10 @@ $data = $row['Data'];
 		</td>
 	</tr>
 	<tr>
-		<td><b>ชื่อ,เรื่อง,หัวข้อ หรือคำอธิบายสั้น ๆ <input type="text" size="100" name="Title" placeholder="เช่น แผนผังวังเดิม เป็นต้น" value="<?= $row['Title']; ?>"></b></td>
+		<td><b>ชื่อ,เรื่อง,หัวข้อ หรือคำอธิบายสั้น ๆ <input type="text" size="100" name="Title" placeholder="เช่น เอกสารสำคัญ เป็นต้น" value="<?= $row['Title']; ?>"></b></td>
 	</tr>
 	<tr>
-		<td>ใส่คำค้นหลัก (Tag) แบ่งคำค้นด้วย , (comma) <input type="text" size="44" name="Tag" placeholder="เช่น config,noc,แผนผัง,วังเดิม เป็นต้น" value="<?= $row['Tag']; ?>"> ชื่อผู้บันทึก <input type="text" size="33" name="name" value="<?= $row['Name']; ?>"></td>
+		<td>ใส่คำค้นหลัก (Tag) แบ่งคำค้นด้วย , (comma) <input type="text" size="44" name="Tag" placeholder="เช่น เอกสาร,word,รายงาน,การประชุม เป็นต้น" value="<?= $row['Tag']; ?>"> ชื่อผู้บันทึก <input type="text" size="33" name="name" value="<?= $row['Name']; ?>"></td>
 	</tr>
 	<tr>
 		<td><textarea name="memo_data" id="editor1" ><?= $data ?></textarea></td>
