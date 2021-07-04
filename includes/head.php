@@ -1,5 +1,5 @@
 <?php	$page = $_SERVER['REQUEST_URI'];
-		if(strpos($page, 'index')!== false || strpos($page, 'edit')!== false) {
+		if($GLOBALS['caller_page']=='index' || strpos($page, 'index')!== false || strpos($page, 'edit')!== false) {
 			echo '
 			<link rel="stylesheet" href="css/jodit.min.css">
 			<script src="js/jodit.min.js"></script>';
