@@ -85,6 +85,11 @@ while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
 		<td><textarea name="memo_data" id="editor1"></textarea></td>
 	</tr>
 </table>
+<script>
+	var editor1 = new Jodit('#editor1', {
+		//buttons: [],
+	});
+</script>
 <br>
 <button type="submit" class="awesome_saved_button">
     <i class="fas fa-save fa-2x" ></i> บันทึกข้อมูล
@@ -100,12 +105,5 @@ while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
     };
 	$DBH = null;
     ?>
-	
-<script>
-	var editor1 = new Jodit('#editor1', {
-		//buttons: [],
-	});
-</script>
-
 	</body>
 </html>
