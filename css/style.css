@@ -1,0 +1,215 @@
+
+body {
+	background: rgb(255,255,255);
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(231,253,255,1) 0%, rgba(255,255,255,1) 100%);
+	color: black;
+	#font: normal 32px/1.6 system-ui, sans-serif;
+	text-shadow: 0 1px 1px hsl(0 0% 0% / 20%);
+	margin: 1rem;
+}
+
+#logout_form.button { 
+	height: 50px; 
+	width: 100px; 
+	background-color: #cccccc;
+	border: none;
+	#color: white;
+	#padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	#display: inline-block;
+	font-size: 15px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+#logout_form.button:hover { background: #737373; color: white; }
+
+.awesome_logout_button { 
+	height: 60px; 
+	width: 140px; 
+	background-color: #cccccc;
+	border: 1;
+	#color: white;
+	#padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	#display: inline-block;
+	font-size: 15px;
+	border-radius: 6px;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+.awesome_logout_button:hover { background: #000; color: white; }
+
+.buttonUpload { 
+	height: 50px; 
+	width: 135px; 
+	background-color: #66b3ff;
+	border: none;
+	color: black;
+	#padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.buttonUpload:hover { background: #0066cc; color: white; }
+
+.awesome_upload_button { 
+	height: 60px; 
+	width: 170px; 
+	background-color: #66b3ff;
+	border: 1;
+	#color: white;
+	#padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	#display: inline-block;
+	font-size: 15px;
+	border-radius: 6px;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+.awesome_upload_button:hover { background: #0066cc; color: white; }
+
+.saved_button { 
+	height: 30px; 
+	width: 100px; 
+	background-color: #66ff99;
+	border: 1;
+	color: black;
+	#padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.saved_button:hover { background: #00b33c; color: white; }
+
+.awesome_saved_button { 
+	height: 40px; 
+	width: 160px; 
+	background-color: #66ff99;
+	border: 1;
+	color: black;
+	#padding: -15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	#border-radius: 6px;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+.awesome_saved_button:hover { background: #00b33c; color: white; }
+
+.search_box {
+  width: 400px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  #background-image: url('searchicon.png');
+  #background-position: 5px 5px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 20px;
+  transition: width 0.4s ease-in-out;
+}
+
+.search_box:focus {
+  width: 100%;
+}
+
+.search_button { 
+	height: 30px; 
+	width: 100px; 
+	background-color: #99ccff;
+	border: 1;
+	color: black;
+	#padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.search_button:hover { background: #0080ff; color: white; }
+
+.awesome_search_button { 
+	height: 40px; 
+	width: 150px; 
+	background-color: #99ccff;
+	border: 1;
+	color: black;
+	#padding: -15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	#border-radius: 6px;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+.awesome_search_button:hover { background: #0080ff; color: white; }
+
+.awesome_back_button { 
+	height: 40px; 
+	width: 160px; 
+	background-color: #ffffff;
+	border: 1;
+	color: black;
+	#padding: -15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	#border-radius: 4px;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+.awesome_back_button:hover { background: #808080; color: white; }
+
+.awesome_edit_button { 
+	height: 40px; 
+	width: 160px; 
+	background-color: #b3cdff;
+	border: 1;
+	color: black;
+	#padding: -15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	#border-radius: 4px;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+.awesome_edit_button:hover { background: #4d8bff; color: white; }
+
+.awesome_delete_button { 
+	height: 40px; 
+	width: 160px; 
+	background-color: #ff6666;
+	border: 1;
+	color: black;
+	#padding: -15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	#border-radius: 4px;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+.awesome_delete_button:hover { background: #e60000; color: white; }
+
+.td_title {
+			border-radius: 6px;
+		}
