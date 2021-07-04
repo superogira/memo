@@ -7,6 +7,6 @@ Easy for memo everything.
 - ใน login.php แก้ $pass(บรรทัดที่ 7) และ $_SESSION['password'](บรรทัดที่ 40)
 - แก้ข้อมูลใน config.php (แก้แค่บรรทัดที่ 49 กับ 53 ก็พอ)
 
-รหัสในการเข้า - 123456
+รหัสปกติในการเข้าหากไม่ได้แก้อะไร - 123456
 <br>
 รหัส Tiny File Manager - admin , admin@123
