@@ -8,7 +8,7 @@
 			</form>
 		</td>
 <?php
-	if(strpos($page, 'index')!== false || strpos($page, 'showall')!== false|| strpos($page, 'edit')!== false) {
+	if($GLOBALS['caller_page']=='index' || strpos($page, 'index')!== false || strpos($page, 'showall')!== false|| strpos($page, 'edit')!== false) {
 	echo '
 		<td align="right">
 			<form target="_blank" method="post" action="" id="upload_form">
