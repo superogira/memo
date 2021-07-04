@@ -2,7 +2,7 @@
 <head>
 	<title>ระบบบันทึกและค้นหาข้อมูล</title>
 	<meta http-equiv=Content-Type content="text/html; charset=utf-8">
-	<?php $GLOBALS['caller_page'] = 'index'; include 'includes/head.php'; ?>
+	<?php $GLOBALS['caller_page'] = 'index'; include 'includes/head.php';?>
 </head>
 <body>
 <?php include 'includes/body_head.php'; ?>
