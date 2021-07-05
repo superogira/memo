@@ -52,6 +52,9 @@ ORDER BY Update_Timestamp DESC";
 $stmt = $DBH->query($sth);
 
 while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
+	if (empty($row['Title'])) {
+		$row['Title'] = "---";
+	};
 ?>
 					<tr align="center">
 						<td><?php echo $row['No'];?></td>
